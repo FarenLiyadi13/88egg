@@ -10,15 +10,13 @@ package pkg88egg;
  * @author Faren
  */
 public class jenistelur {
-    private String jenis;
-
-    public String getJenis() {
-        return jenis;
+    String jenistelur;
+    
+    public jenistelur(String z) {
+        jenistelur = z;
     }
 
-    public void setJenis(String jenis) {
-        this.jenis = jenis;
+    public String getjenis() {
+        return jenistelur;
     }
-    
-    
 }

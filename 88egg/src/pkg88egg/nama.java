@@ -10,14 +10,13 @@ package pkg88egg;
  * @author Faren
  */
 public class nama {
-    private String nama;
-
-    public String getNama() {
-        return nama;
-    }
-
-    public void setNama(String nama) {
-        this.nama = nama;
-    }
+   String nama;//variabel nama tipe string
     
+  public nama (String n){//memberikan nilai nama
+      nama=n;
+  }
+  
+  public String getn(){//mengembalikan nilai nama
+      return (nama);
+  }
 }
