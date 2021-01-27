@@ -9,16 +9,6 @@ package pkg88egg;
  *
  * @author Faren
  */
-public class jumlah {
-    private String jml;
-
-  
-
-    public jumlah(String jml) {
-        this.jml = jml;
-    }
-      public String getJml() {
-        return jml;
-    }
+public class total {
     
 }

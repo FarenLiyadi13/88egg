@@ -11,12 +11,16 @@ package pkg88egg;
  */
 public class jenistelur {
     String jenistelur;
-    
-    public jenistelur(String z) {
-        jenistelur = z;
-    }
 
-    public String getjenis() {
+    public jenistelur(String j){
+        jenistelur=j;
+    }
+    
+    public String getJenistelur() {
         return jenistelur;
     }
+
+    
+    
+    
 }
